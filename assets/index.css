@@ -1,0 +1,16 @@
+:root{
+    --color1: #355872;
+    --color2: #7AAACE;
+    --color3: #9CD5FF;
+    --color4: #F7F8F0;
+}
+
+.mainmenu{
+    background-color: var(--color1);
+    color: var(--color4);
+}
+header nav a{
+    color: var(--color4);
+    text-decoration: none;
+    margin: 0 10px;
+}
