@@ -27,3 +27,13 @@ npm install
 
 
 Instalar la extensión de `Live Server (Five)` en el VSCode y en el index.html que esta afuera en raíz dar clic derecho abrir con Live server para que pueda mostrarse el proyecto.
+
+
+
+Se detallan varios comando de git para poder trabajar en su respectiva rama y se hagan los cambios:
+```
+git checkout <nombre_rama>  (Cambiarse a su rama correspondiente)
+git add .  (Agregar los cambios realizados)
+git commit -m "Agregar mensaje" (Comando para detallar mensaje de los cambios realizados)
+git push  (Subir los cambios a rama remota)
+```
