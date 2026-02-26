@@ -23,10 +23,15 @@
         </div>
     </div>
     <!--Javascript-->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        fetch("../layout/header.html")
-            .then(response => response.text())
-            .then(data => document.getElementById("header").innerHTML = data);
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("../layout/header.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("header").innerHTML = data;
+                });
+        });
     </script>
 </body>
 

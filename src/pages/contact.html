@@ -8,7 +8,6 @@
     <!--CSS-->
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-
 </head>
 
 <body>
@@ -18,15 +17,20 @@
     <div class="container-fluid mt-2">
         <div class="row">
             <div class="col-4">
-                <h2>Contact page</h2>    
+                <h2>Contact page</h2>
             </div>
         </div>
     </div>
     <!--Javascript-->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        fetch("../layout/header.html")
-            .then(response => response.text())
-            .then(data => document.getElementById("header").innerHTML = data);
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("../layout/header.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("header").innerHTML = data;
+                });
+        });
     </script>
 </body>
 
