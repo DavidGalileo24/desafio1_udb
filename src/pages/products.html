@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contáctanos - Libreria UDB</title>
+    <title>Productos - Libreria UDB</title>
     <!--CSS-->
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
@@ -18,8 +18,17 @@
     <!--Filters-->
     <div class="container mt-5 bg-light p-2 rounded">
         <div class="row">
-            <div class="col-12">
-               <h4>Listado de productos</h4>
+            <div class="col-12 d-flex justify-content-between align-items-center">
+                <p>Mostrando 8 productos</p>
+                <div class="">
+                    <select class="form-select w-auto">
+                        <option value="default">Ordenar por más popular</option>
+                        <option value="price-asc">Precio: de menor a mayor</option>
+                        <option value="price-desc">Precio: de mayor a menor</option>
+                        <option value="name-asc">Nombre: A-Z</option>
+                        <option value="name-desc">Nombre: Z-A</option>
+                    </select>
+                </div>
             </div>
         </div>
     </div>
@@ -53,7 +62,6 @@
                     container.appendChild(col);
                 });
             });
-
         //Cargar el header
         document.addEventListener("DOMContentLoaded", function () {
             fetch("../layout/header.html")
