@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contáctanos - Libreria UDB</title>
-    <!--CSS-->
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="shortcut icon" href="../../assets/images/favicon.png" type="image/x-icon">
@@ -16,104 +15,98 @@
     <div id="header"></div>
     <!--Data-->
     <div class="container mt-4">
-   <div class="row">
-      <div class="col-12 col-md-6 col-lg-4">
-                <center><h2>Contactanos</h2></center>   
-
-                <center><div class="container">
-                <H2>¿Tienes alguna duda?</H2>
-<form action="">
-     <div>
-        <label>Nombre</label>
-       <center> <input placeholder="Ingrese su nombre por favor" class="form-control" type="text" class="form-control"></center>
-     </div>
-
-     <div>
-        <label>Correo electronico</label>
-        <center><input placeholder="Ingrese su direcion de correo electronico por favor" class="form-control" type="email" name="form-control"></center>
-     </div>
-
-     <div class="mb-3">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-6">
+                <form action="" class="form1">
+                    <h2>¿Tienes alguna duda?</h2>
+                    <div class="mt-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input id="nombre" class="form-control" type="text">
+                    </div>
+                    <div class="mt-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input id="email" class="form-control" type="email">
+                    </div>
+                    <div class="mt-3">
                         <label for="asunto" class="form-label">Motivo de tu pregunta</label>
-                       <center> <select class="form-control" id="asunto">
+                        <select class="form-control" id="asunto">
                             <option selected>Consulta general</option>
                             <option value="1">Disponibilidad de un libro</option>
                             <option value="2">Estado de mi pedido</option>
                             <option value="3">Sugerencias o quejas</option>
                             <option value="4">Otro</option>
-                        </select></center>
+                        </select>
                     </div>
-
-                    
-
-                   <div>
-        <label>Escribe tu pregunta</label> 
-        <center><textarea placeholder="Ingrese su pregunta por favor" class="form-control" name="pregunta"></textarea></center>
-    
+                    <div class="mt-3">
+                        <label for="pregunta" class="form-label">Escribe tu pregunta</label>
+                        <textarea id="pregunta" class="form-control" name="pregunta"></textarea>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary">Enviar Pregunta</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <h2 class="mb-4">Información de Contacto</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Redes Sociales</h5>
+                                <div class="enlaces">
+                                    <a href="https://www.facebook.com/" target="_blank"
+                                        class="btn btn-outline-primary me-2">Facebook</a>
+                                    <a href="https://www.instagram.com/" target="_blank"
+                                        class="btn btn-outline-danger">Instagram</a>
+                                </div>
+                                <p class="card-text mt-3">Síguenos y conoce lo más nuevo de nuestra
+                                    librería.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Correo Electrónico</h5>
+                                <a href="mailto:info.libreriaabceda.com"
+                                    class="btn btn-outline-success">info.libreriaabceda.com</a>
+                                <p class="card-text mt-3">Contáctanos para compras institucionales o
+                                    cotizaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">WhatsApp</h5>
+                                <a href="https://wa.me/50361126862" target="_blank" class="btn btn-outline-success">+503
+                                    6112-6862</a>
+                                <p class="card-text mt-3">Escríbenos para hacer tus pedidos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <br>
-    <div class="text-center">
-                        <button type="enviar" class="boton-control">Enviar Pregunta</button>
-                    </div>
 
-
-</form>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 footer">
+                <p id="pie"> Universidad Don Bosco | Lenguajes de Marcado y Estilo Web y Gestores de
+                    Contenido </p>
+                <div class="d-flex justify-content-center">
+                    <img src="../../assets/images/IMG/fb.png" class="img-fluid redes mx-2">
+                    <img src="../../assets/images/IMG/Ig.png" class="img-fluid redes mx-2">
+                    <img src="../../assets/images/IMG/wp.png" class="img-fluid redes mx-2">
+                    <img src="../../assets/images/IMG/gm.png" class="img-fluid redes mx-2">
+                </div>
             </div>
+        </div>
+    </div>
 
 
-            <hr>
-            
-
-            <div class="informacion-contactos">
-
-                <article class="Filas-contactos">
-<h3>Redes Sociales</h3>
-<div class="enlaces">
-    <a href="https://www.facebook.com/">Facebook</a>
-    <br><br>
-    <a href="https://www.instagram.com/">Instagram</a>
-</div>
-<br>
-<p>Siguenos y conoce lo mas nuevo de nuestra libreria.</p>
-                </article>
-
-<article class="Filas-contactos">
-    <h3>Correo Electronico</h3>
-    <a href="https://workspace.google.com/intl/es/gmail/">Libreria.Abceda@gmail.com</a>
-    <p>Contactanos para compras institucionales o cotizaciones.</p>
-
-</article>
-
-<article class="Filas-contactos">
-
-<h3>WhatsApp</h3>
-<a href="https://www.whatsapp.com/">+503 6112-6862</a>
-<p>Escribenos para hacer tus pedidos.</p>
-
-</article>
-            </div>
-
-              <br>
-              <br>
-              <br>
-<div>
-<footer class="footer">
-    <p id="pie"> Universidad Don Bosco | Lenguajes de Marcado y Estilo Web y Gestores de Contenido  </p>
-    <table id="redes"><img src="IMG/fb.png" class="img-fluid redes"></table>
-    <br>
-    <table id="redes"><img src="IMG/Ig.png" class="img-fluid redes"></table>
-    <br>
-    <table id="redes"><img src="IMG/wp.png" class="img-fluid redes"></table>
-    <br>
-    <table id="redes"><img src="IMG/gm.png" class="img-fluid redes"></table>
-
-
-</footer>
-</div>
-
-
-    <!--Javascript-->
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             fetch("../layout/header.html")
@@ -123,11 +116,6 @@
                 });
         });
     </script>
-    <div>
-    </div>
-
-
-
 </body>
 
 </html>

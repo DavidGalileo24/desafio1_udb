@@ -86,8 +86,11 @@ body {
 }
 
 /*contactos */
-
-/*contactos */
+.form1{
+  border: 2px solid var(--color4);
+  border-radius: 10px;
+  padding: 20px;
+}
 
 .informacion-contactos {
 display: flex;
