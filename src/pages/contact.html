@@ -15,13 +15,103 @@
     <!--Menu-->
     <div id="header"></div>
     <!--Data-->
-    <div class="container-fluid mt-2">
-        <div class="row">
-            <div class="col-4">
-                <h2>Contact page</h2>
-            </div>
-        </div>
+    <div class="container mt-4">
+   <div class="row">
+      <div class="col-12 col-md-6 col-lg-4">
+                <center><h2>Contactanos</h2></center>   
+
+                <center><div class="container">
+                <H2>¿Tienes alguna duda?</H2>
+<form action="">
+     <div>
+        <label>Nombre</label>
+       <center> <input placeholder="Ingrese su nombre por favor" class="form-control" type="text" class="form-control"></center>
+     </div>
+
+     <div>
+        <label>Correo electronico</label>
+        <center><input placeholder="Ingrese su direcion de correo electronico por favor" class="form-control" type="email" name="form-control"></center>
+     </div>
+
+     <div class="mb-3">
+                        <label for="asunto" class="form-label">Motivo de tu pregunta</label>
+                       <center> <select class="form-control" id="asunto">
+                            <option selected>Consulta general</option>
+                            <option value="1">Disponibilidad de un libro</option>
+                            <option value="2">Estado de mi pedido</option>
+                            <option value="3">Sugerencias o quejas</option>
+                            <option value="4">Otro</option>
+                        </select></center>
+                    </div>
+
+                    
+
+                   <div>
+        <label>Escribe tu pregunta</label> 
+        <center><textarea placeholder="Ingrese su pregunta por favor" class="form-control" name="pregunta"></textarea></center>
+    
     </div>
+    <br>
+    <div class="text-center">
+                        <button type="enviar" class="boton-control">Enviar Pregunta</button>
+                    </div>
+
+
+</form>
+            </div>
+
+
+            <hr>
+            
+
+            <div class="informacion-contactos">
+
+                <article class="Filas-contactos">
+<h3>Redes Sociales</h3>
+<div class="enlaces">
+    <a href="https://www.facebook.com/">Facebook</a>
+    <br><br>
+    <a href="https://www.instagram.com/">Instagram</a>
+</div>
+<br>
+<p>Siguenos y conoce lo mas nuevo de nuestra libreria.</p>
+                </article>
+
+<article class="Filas-contactos">
+    <h3>Correo Electronico</h3>
+    <a href="https://workspace.google.com/intl/es/gmail/">Libreria.Abceda@gmail.com</a>
+    <p>Contactanos para compras institucionales o cotizaciones.</p>
+
+</article>
+
+<article class="Filas-contactos">
+
+<h3>WhatsApp</h3>
+<a href="https://www.whatsapp.com/">+503 6112-6862</a>
+<p>Escribenos para hacer tus pedidos.</p>
+
+</article>
+            </div>
+
+              <br>
+              <br>
+              <br>
+<div>
+<footer class="footer">
+    <p id="pie"> Universidad Don Bosco | Lenguajes de Marcado y Estilo Web y Gestores de Contenido  </p>
+    <table id="redes"><img src="IMG/fb.png" class="img-fluid redes"></table>
+    <br>
+    <table id="redes"><img src="IMG/Ig.png" class="img-fluid redes"></table>
+    <br>
+    <table id="redes"><img src="IMG/wp.png" class="img-fluid redes"></table>
+    <br>
+    <table id="redes"><img src="IMG/gm.png" class="img-fluid redes"></table>
+
+
+</footer>
+</div>
+
+
     <!--Javascript-->
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script>
@@ -33,6 +123,11 @@
                 });
         });
     </script>
+    <div>
+    </div>
+
+
+
 </body>
 
 </html>
