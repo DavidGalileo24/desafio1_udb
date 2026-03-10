@@ -1,265 +1,276 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Inicio - Libreria UDB</title>
-        <!--Boostrap-->
-        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-        <!--CSS-->
-        <link rel="stylesheet" href="assets/css/index.css">
-        <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-        <!-- Bootstrap Icons -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    </head>
-    <body>
-        <div id="header"></div>
-        <div id="indexCarousel" class="carousel slide indexCarousel" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="active"></button>
-                <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1"></button>
-            </div>
 
-            <div class="carousel-inner">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Libreria UDB</title>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+    <div id="header"></div>
+    <div id="indexCarousel" class="carousel slide indexCarousel" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#indexCarousel" data-bs-slide-to="1"></button>
+        </div>
+
+        <div class="carousel-inner">
             <!-- SLIDE 1 -->
-                <div class="carousel-item active">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <p class="text-uppercase text-success fw-semibold small">
-                                    Libreria ABECEDA
-                                </p>
-                                <h1 class="caro-title">
-                                    Encuentra TODO lo que necesites en un solo lugar.
-                                </h1>
-                                <p class="caro-subtitle">
-                                    Contamos con Cuadernos, libros, colores, plumones y todo mucho más.
-                                </p>
-                                <a class="btn btn-custom" href="/src/pages/products.html">Productos</a>
-                            </div>
-                            <div class="col-lg-6 mt-5 mt-lg-0">
-                                <div class="promo-card shadow">
-                                    <h4 class="fw-bold mb-3">Ve nuestro catálogo</h4>
-                                    <img src="https://images.unsplash.com/photo-1526248283201-fafd30eb2b90?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Park Image">
-                                </div>
+            <div class="carousel-item active">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <p class="text-uppercase text-success fw-semibold small">
+                                Libreria ABECEDA
+                            </p>
+                            <h1 class="caro-title">
+                                Encuentra TODO lo que necesites en un solo lugar.
+                            </h1>
+                            <p class="caro-subtitle">
+                                Contamos con Cuadernos, libros, colores, plumones y todo mucho más.
+                            </p>
+                            <a class="btn btn-custom" href="/src/pages/products.html">Productos</a>
+                        </div>
+                        <div class="col-lg-6 mt-5 mt-lg-0">
+                            <div class="promo-card shadow">
+                                <img src="https://images.unsplash.com/photo-1526248283201-fafd30eb2b90?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Park Image">
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- SLIDE 2 -->
-                <div class="carousel-item">
-                    <div class="container">
-                        <div class="row align-items-center">
-                            <div class="col-lg-6">
-                                <p class="text-uppercase text-success fw-semibold small">
-                                    Libreria ABECEDA
-                                </p>
-                                <h1 class="caro-title">Libera tu imaginación con nuestros productos.</h1>
-                                <p class="caro-subtitle">
-                                    Plumones y colores de todos los colores que te imaginas
-                                </p>
-                                <a class="btn btn-custom" href="/src/pages/products.html">Productos</a>
-                            </div>
-                            <div class="col-lg-6 mt-5 mt-lg-0">
-                                <div class="promo-card shadow">
-                                    <h4 class="fw-bold mb-3">Ve nuestro catálogo</h4>
-                                    <img class="img-fluid rounded-4 shadow"
-                                    src="https://images.unsplash.com/photo-1557154683-264bf969e849?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Books">
-                                </div>
+            <!-- SLIDE 2 -->
+            <div class="carousel-item">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <p class="text-uppercase text-success fw-semibold small">
+                                Libreria ABECEDA
+                            </p>
+                            <h1 class="caro-title">Libera tu imaginación con nuestros productos.</h1>
+                            <p class="caro-subtitle">
+                                Plumones y colores de todos los colores que te imaginas
+                            </p>
+                            <a class="btn btn-custom" href="/src/pages/products.html">Productos</a>
+                        </div>
+                        <div class="col-lg-6 mt-5 mt-lg-0">
+                            <div class="promo-card shadow">
+                                <img class="img-fluid rounded-4 shadow"
+                                    src="https://images.unsplash.com/photo-1557154683-264bf969e849?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Books">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
 
-        <!-- Controles -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#indexCarousel" data-bs-slide="prev">
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#indexCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#indexCarousel" data-bs-slide="next">
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#indexCarousel" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
-        </button>
+    </button>
 
-        <section class="beneficios">
-            <div class="container">
-                <div class="row text-start">
-                    <!-- beneficio 1 -->
-                    <div class="col-lg-3 col-md-6 col-sm-6 ">
-                        <div class="d-flex align-items-center card-option shadow-sm rounded">
-                            <i class="bi bi-truck icon"></i>
-                            <div class="beneficios-text">
-                                <div class="beneficios-title">Envíos gratis<br>a partir de $10.00</div>
-                            </div>
+    <section class="beneficios">
+        <div class="container">
+            <div class="row text-start">
+                <!-- beneficio 1 -->
+                <div class="col-lg-3 col-md-6 col-sm-6 ">
+                    <div class="d-flex align-items-center card-option shadow-sm rounded">
+                        <i class="bi bi-truck icon"></i>
+                        <div class="beneficios-text">
+                            <div class="beneficios-title">Envíos gratis<br>a partir de $10.00</div>
                         </div>
                     </div>
-                    <!-- beneficio 2 -->
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="d-flex align-items-center card-option shadow-sm rounded">
-                            <i class="bi bi-shield-check icon"></i>
-                            <div class="beneficios-text">
-                                <div class="beneficios-title">Pagos seguros</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- beneficio 3 -->
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="d-flex align-items-center card-option shadow-sm rounded">
-                            <i class="bi bi-credit-card icon"></i>
-                            <div class="beneficios-text">
-                                <div class="beneficios-title">Pago con tarjeta débito o crédito</div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- beneficio 4 -->
-                    <div class="col-lg-3 col-md-6 col-sm-6">
-                        <div class="d-flex align-items-center card-option shadow-sm rounded">
-                            <i class="bi bi-shop icon"></i>
-                            <div class="beneficios-text">
-                                <div class="beneficios-title">Producto disponible en sucursal San Benito</div>
-                            </div>
-                        </div>
-                    </div> 
                 </div>
-            </div>
-        </section>
-
-        <!-- CATEGORIAS -->
-        <section class="py-5 bg-light">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <h2 class="fw-bold">Categorías</h2>
-                    <p class="text-muted">Explora nuestras principales categorías</p>
+                <!-- beneficio 2 -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="d-flex align-items-center card-option shadow-sm rounded">
+                        <i class="bi bi-shield-check icon"></i>
+                        <div class="beneficios-text">
+                            <div class="beneficios-title">Pagos seguros</div>
+                        </div>
+                    </div>
                 </div>
-                <div class="row">
-                    <!-- ARTE -->
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card border-0 shadow-sm h-100 text-center">
-                            <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Arte">
-                            <div class="card-body">
-                                <h5 class="card-title">Arte</h5>
-                                <p class="text-muted small">707 productos</p>
-                            </div>
+                <!-- beneficio 3 -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="d-flex align-items-center card-option shadow-sm rounded">
+                        <i class="bi bi-credit-card icon"></i>
+                        <div class="beneficios-text">
+                            <div class="beneficios-title">Pago con tarjeta débito o crédito</div>
                         </div>
                     </div>
-                    <!-- ESCOLAR -->
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card border-0 shadow-sm h-100 text-center">
-                            <img src="https://images.unsplash.com/photo-1654931800100-2ecf6eee7c64?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Escolar">
-                            <div class="card-body">
-                                <h5 class="card-title">Escolar</h5>
-                                <p class="text-muted small">680 productos</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- INFANTIL -->
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card border-0 shadow-sm h-100 text-center">
-                            <img src="https://media.istockphoto.com/id/2166504897/photo/mother-her-son-at-stationery-shopping-in-a-store-his-son-is-angry-because-he-didnt-get-what.jpg?s=2048x2048&w=is&k=20&c=wzR1G55zmxjeVEun9Z3PGzQ5lQ100N5A-20bULtz0O0=" class="card-img-top" alt="Infantil">
-                            <div class="card-body">
-                                <h5 class="card-title">Infantil</h5>
-                                <p class="text-muted small">115 productos</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- OFICINA -->
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card border-0 shadow-sm h-100 text-center">
-                            <img src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?q=80&w=1168&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Oficina">
-                            <div class="card-body">
-                                <h5 class="card-title">Oficina</h5>
-                                <p class="text-muted small">433 productos</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- PAPELES -->
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card border-0 shadow-sm h-100 text-center">
-                            <img src="https://images.unsplash.com/photo-1664935035283-c2580f4196a2?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Papeles y derivados">
-                            <div class="card-body">
-                                <h5 class="card-title">Papeles y Derivados</h5>
-                                <p class="text-muted small">239 productos</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- MOCHILAS -->
-                    <div class="col-sm-6 col-lg-2">
-                        <div class="card border-0 shadow-sm h-100 text-center">
-                            <img src="https://images.unsplash.com/photo-1527905804285-2f67b86e3bf6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="Papeles y derivados">
-                            <div class="card-body">
-                                <h5 class="card-title">Mochilas</h5>
-                                <p class="text-muted small">10 productos</p>
-                            </div>
+                </div>
+                <!-- beneficio 4 -->
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="d-flex align-items-center card-option shadow-sm rounded">
+                        <i class="bi bi-shop icon"></i>
+                        <div class="beneficios-text">
+                            <div class="beneficios-title">Producto disponible en sucursal San Benito</div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <div>
+        </div>
+    </section>
+
+    <!-- CATEGORIAS -->
+    <section class="py-5 bg-light">
+        <div class="container">
             <div class="text-center mb-5">
-                <h2 class="fw-bold">Nuevo ingreso</h2>
+                <h2 class="fw-bold">Categorías</h2>
+                <p class="text-muted">Explora nuestras principales categorías</p>
             </div>
-            <!--Data-->
-            <div class="container mt-4">
-                <div class="row" id="products-container"></div>
-            </div>
-        </div>
-        <div class="container py-5">
-            <div class="Comunidad-box">
-                <div class="row align-items-center">
-                    <div class="col-md-5 mb-4">
-                        <img src="https://images.unsplash.com/photo-1739830889325-54b156f92c58?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="book-img" alt="Book">
-                    </div>
-                    <div class="col-md-7">
-                        <h2 class="titulo-unete">Unete a nuestra comunidad</h2>
-                        <p class="subtitulo-unete">Y recibe ofertas exclusivas</p>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico" aria-label="Email">
-                            <button class="btn-suscribirse">Subscribe</button>
+            <div class="row">
+                <!-- ARTE -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1560421683-6856ea585c78?q=80&w=1174&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Arte">
+                        <div class="card-body">
+                            <h5 class="card-title">Arte</h5>
+                            <p class="text-muted small">707 productos</p>
                         </div>
-                        <div class="social-icons">
-                            <a class="rounded-circle" href="#"><i class="bi bi-facebook"></i></a>
-                            <a class="rounded-circle" href="#"><i class="bi bi-twitter"></i></a>
-                            <a class="rounded-circle" href="#"><i class="bi bi-instagram"></i></a>
-                            <a class="rounded-circle" href="#"><i class="bi bi-linkedin"></i></a>
-                            <a class="rounded-circle" href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+                <!-- ESCOLAR -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1654931800100-2ecf6eee7c64?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Escolar">
+                        <div class="card-body">
+                            <h5 class="card-title">Escolar</h5>
+                            <p class="text-muted small">680 productos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- INFANTIL -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <img src="https://media.istockphoto.com/id/2166504897/photo/mother-her-son-at-stationery-shopping-in-a-store-his-son-is-angry-because-he-didnt-get-what.jpg?s=2048x2048&w=is&k=20&c=wzR1G55zmxjeVEun9Z3PGzQ5lQ100N5A-20bULtz0O0="
+                            class="card-img-top" alt="Infantil">
+                        <div class="card-body">
+                            <h5 class="card-title">Infantil</h5>
+                            <p class="text-muted small">115 productos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- OFICINA -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1456735190827-d1262f71b8a3?q=80&w=1168&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Oficina">
+                        <div class="card-body">
+                            <h5 class="card-title">Oficina</h5>
+                            <p class="text-muted small">433 productos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- PAPELES -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1664935035283-c2580f4196a2?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Papeles y derivados">
+                        <div class="card-body">
+                            <h5 class="card-title">Papeles y Derivados</h5>
+                            <p class="text-muted small">239 productos</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- MOCHILAS -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="card border-0 shadow-sm h-100 text-center">
+                        <img src="https://images.unsplash.com/photo-1527905804285-2f67b86e3bf6?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            class="card-img-top" alt="Papeles y derivados">
+                        <div class="card-body">
+                            <h5 class="card-title">Mochilas</h5>
+                            <p class="text-muted small">10 productos</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <footer id="footer"></footer>
-        <!--Javascript-->
-        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script>
-            document.addEventListener("DOMContentLoaded", function () {
-                fetch("src/layout/header.html")
-                    .then(r => r.text())
-                    .then(data => {
-                        document.getElementById("header").innerHTML = data;
-                    });
-                fetch("src/layout/footer.html")
-                    .then(r => r.text())
-                    .then(data => {
-                        document.getElementById("footer").innerHTML = data;
-                    });
-                fetch("/src/pages/products.html")
-                    .then(r => r.text())
-                    .then(data => {
-                        document.getElementById("productosNuevos").innerHTML = data;
-                    });
+    </section>
+    <div>
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Nuevo ingreso</h2>
+        </div>
+        <!--Data-->
+        <div class="container mt-4">
+            <div class="row" id="products-container"></div>
+        </div>
+    </div>
+    <div class="container py-5">
+        <div class="Comunidad-box">
+            <div class="row align-items-center">
+                <div class="col-md-5 mb-4">
+                    <img src="https://images.unsplash.com/photo-1739830889325-54b156f92c58?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                        class="book-img" alt="Book">
+                </div>
+                <div class="col-md-7">
+                    <h2 class="titulo-unete">Unete a nuestra comunidad</h2>
+                    <p class="subtitulo-unete">Y recibe ofertas exclusivas</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Ingresa tu correo electrónico"
+                            aria-label="Email">
+                        <button class="btn-suscribirse">Subscribe</button>
+                    </div>
+                    <div class="social-icons">
+                        <a class="rounded-circle" href="#"><i class="bi bi-facebook"></i></a>
+                        <a class="rounded-circle" href="#"><i class="bi bi-twitter"></i></a>
+                        <a class="rounded-circle" href="#"><i class="bi bi-instagram"></i></a>
+                        <a class="rounded-circle" href="#"><i class="bi bi-linkedin"></i></a>
+                        <a class="rounded-circle" href="#"><i class="bi bi-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer id="footer"></footer>
+    <!--Javascript-->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            fetch("src/layout/header.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("header").innerHTML = data;
+                });
+            fetch("src/layout/footer.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("footer").innerHTML = data;
+                });
+            fetch("/src/pages/products.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("productosNuevos").innerHTML = data;
+                });
 
-                //Llamado de productos
-                fetch("/assets/products.json")
-                    .then(response => response.json())
-                    .then(data => {
-                        const container = document.getElementById("products-container");
-                        data.products.forEach(product => {
-                            const col = document.createElement("div");
-                            col.className = "col-md-3 col-lg-3 mb-4";
-                            col.innerHTML = `
+            //Llamado de productos
+            fetch("/assets/products.json")
+                .then(response => response.json())
+                .then(data => {
+                    const container = document.getElementById("products-container");
+                    // mostrar solo los primeros 4 productos
+                    data.products.slice(0, 4).forEach(product => {
+                        const col = document.createElement("div");
+                        col.className = "col-md-3 col-lg-3 mb-4";
+                        col.innerHTML = `
                             <div class="card p-1 shadow-sm">
                                 <img src="${product.image}" class="card-img-top imageproducts" alt="${product.name}">
                                 <div class="card-body d-flex text-center flex-column">
@@ -269,10 +280,11 @@
                                 </div>
                             </div>
                         `;
-                            container.appendChild(col);
-                        });
+                        container.appendChild(col);
                     });
-            });
-        </script>
-    </body>
+                });
+        });
+    </script>
+</body>
+
 </html>
