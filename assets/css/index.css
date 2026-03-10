@@ -79,3 +79,52 @@
   font-size: 1.25rem;
   color: var(--color1);
 }
+
+/*contactos */
+
+/*contactos */
+
+.informacion-contactos {
+display: flex;
+flex-direction: row;
+justify-content: center;
+gap: 30px;
+}
+
+.Filas-contactos{
+  flex: 1;
+  max-width: 300px;
+  text-align: center;
+  padding: 25px 30px;
+  border-right: 2px solid black;
+}
+.Filas-contactos:last-child {
+  border-right: none;
+}
+
+.form-control{
+      width: 250px;
+    padding: 8px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+
+.pie{
+  height:115px;
+  background-color: #355872;
+}
+
+.redes{
+    width:30px;
+    display: flex;
+
+}
+
+.footer{
+  background-color: #355872;
+  color: white; 
+  width: 100%; 
+  padding: 20px;
+  text-align: center;
+}
+
