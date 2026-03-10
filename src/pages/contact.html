@@ -91,21 +91,9 @@
         </div>
     </div>
 
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-12 footer">
-                <p id="pie"> Universidad Don Bosco | Lenguajes de Marcado y Estilo Web y Gestores de
-                    Contenido </p>
-                <div class="d-flex justify-content-center">
-                    <img src="../../assets/images/IMG/fb.png" class="img-fluid redes mx-2">
-                    <img src="../../assets/images/IMG/Ig.png" class="img-fluid redes mx-2">
-                    <img src="../../assets/images/IMG/wp.png" class="img-fluid redes mx-2">
-                    <img src="../../assets/images/IMG/gm.png" class="img-fluid redes mx-2">
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <footer id="footer"></footer>
+    <!--Javascript-->
+    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
     <script>
         document.addEventListener("DOMContentLoaded", function () {
@@ -113,6 +101,11 @@
                 .then(r => r.text())
                 .then(data => {
                     document.getElementById("header").innerHTML = data;
+                });
+            fetch("../layout/footer.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("footer").innerHTML = data;
                 });
         });
     </script>
