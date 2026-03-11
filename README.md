@@ -20,7 +20,7 @@ Tener instalado previamente Git y cuenta creada en Github luego clonar el reposi
 ```
 git clone https://github.com/DavidGalileo24/desafio1_udb.git
 ```
-Posteriormente abrir una consola dentro de la carpeta del proyecto e instalar las dependencias del proyecto donde traera la instalación de Bootstrap y otras que se lleguen a utlizar corriendo el siguiente comando:
+Posteri corriendo el siguientormente abrir una consola dentro de la carpeta del proyecto e instalar las dependencias del proyecto donde traera la instalación de Bootstrap y otras que se lleguen a utlizare comando:
 ```
 npm install
 ```

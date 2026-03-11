@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "mkdir -p assets/vendor/bootstrap/css assets/vendor/bootstrap/js && cp node_modules/bootstrap/dist/css/bootstrap.min.css assets/vendor/bootstrap/css/ && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js assets/vendor/bootstrap/js/"
+  },
   "dependencies": {
     "bootstrap": "^5.3.8",
     "bootstrap-icons": "^1.13.1"

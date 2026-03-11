@@ -4,32 +4,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- base para que los enlaces se resuelvan desde la raíz del proyecto -->
+    <base href="../../">
     <title>Contáctanos - Libreria UDB</title>
-    <!--CSS-->
-    <link rel="stylesheet" href="/assets/css/index.css">
-    <link rel="stylesheet" href="../../node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="../../assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <!-- Bootstrap local -->
+    <link rel="stylesheet" href="assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
     <!--Menu-->
     <div id="header"></div>
     <!--Data-->
-    <div class="container-fluid mt-2">
+    <div class="container mt-4">
         <div class="row">
-            <div class="col-4">
-                <h2>Contact page</h2>
+            <div class="col-12 col-md-6 col-lg-6">
+                <form action="" class="form1">
+                    <h2>¿Tienes alguna duda?</h2>
+                    <div class="mt-3">
+                        <label for="nombre" class="form-label">Nombre</label>
+                        <input id="nombre" class="form-control" type="text">
+                    </div>
+                    <div class="mt-3">
+                        <label for="email" class="form-label">Correo electrónico</label>
+                        <input id="email" class="form-control" type="email">
+                    </div>
+                    <div class="mt-3">
+                        <label for="asunto" class="form-label">Motivo de tu pregunta</label>
+                        <select class="form-control" id="asunto">
+                            <option selected>Consulta general</option>
+                            <option value="1">Disponibilidad de un libro</option>
+                            <option value="2">Estado de mi pedido</option>
+                            <option value="3">Sugerencias o quejas</option>
+                            <option value="4">Otro</option>
+                        </select>
+                    </div>
+                    <div class="mt-3">
+                        <label for="pregunta" class="form-label">Escribe tu pregunta</label>
+                        <textarea id="pregunta" class="form-control" name="pregunta"></textarea>
+                    </div>
+                    <br>
+                    <div class="d-flex justify-content-end">
+                        <button type="submit" class="btn btn-primary">Enviar Pregunta</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6 mt-2">
+                <h2 class="mb-4">Información de Contacto</h2>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-12 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Redes Sociales</h5>
+                                <div class="enlaces">
+                                    <a href="https://www.facebook.com/" target="_blank"
+                                        class="btn btn-outline-primary me-2">Facebook</a>
+                                    <a href="https://www.instagram.com/" target="_blank"
+                                        class="btn btn-outline-danger">Instagram</a>
+                                </div>
+                                <p class="card-text mt-3">Síguenos y conoce lo más nuevo de nuestra
+                                    librería.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Correo Electrónico</h5>
+                                <a href="mailto:info.libreriaabceda.com"
+                                    class="btn btn-outline-success">info.libreriaabceda.com</a>
+                                <p class="card-text mt-3">Contáctanos para compras institucionales o
+                                    cotizaciones.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-6 mb-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">WhatsApp</h5>
+                                <a href="https://wa.me/50361126862" target="_blank" class="btn btn-outline-success">+503
+                                    6112-6862</a>
+                                <p class="card-text mt-3">Escríbenos para hacer tus pedidos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+
+    <footer id="footer"></footer>
     <!--Javascript-->
-    <script src="../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function () {
-            fetch("../layout/header.html")
+            fetch("src/layout/header.html")
                 .then(r => r.text())
                 .then(data => {
                     document.getElementById("header").innerHTML = data;
+                });
+            fetch("src/layout/footer.html")
+                .then(r => r.text())
+                .then(data => {
+                    document.getElementById("footer").innerHTML = data;
                 });
         });
     </script>
