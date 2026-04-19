@@ -18,7 +18,7 @@
 ## Levantar proyecto
 Tener instalado previamente Git y cuenta creada en Github luego clonar el repositorio utilizando el siguiente comando:
 ```
-git clone https://github.com/DavidGalileo24/desafio1_udb.git
+git clone https://github.com/Acvdo25/ProyectoFase1_udb_LME.git
 ```
 Posteri corriendo el siguientormente abrir una consola dentro de la carpeta del proyecto e instalar las dependencias del proyecto donde traera la instalación de Bootstrap y otras que se lleguen a utlizare comando:
 ```
